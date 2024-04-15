@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    background-color: black;
+}
+
+/*header*/
+
+#head{
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 100vw;
+    height: 15vh; 
+}
+
+#logo{
+    width: 35vw;
+    height: 18vh;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.line{
+    background-color: #F0FE4B;
+    display: block;
+    width: 100vw;
+    height: 0.3vh;
+    margin-bottom: 2rem;
+} 
+
+/* ---------------------------------------------------------------- */
+
+
+/*Main*/
+
+#subtitle{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.subtitle2{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.inputss{
+    width: 80vw;
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+}
+
+.inputss2{
+    width: 80vw;
+    height: 20vh;
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+}
+
+#boton{
+    background-color: white;
+    color: black;
+    width: 30vw;
+    height: 5vh;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+#boton:hover{
+    
+    background-color: black;
+    color: white;
+    width: 30vw;
+    height: 5vh;
+    border-color: #F0FE4B;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-radius: 2rem;
+}
+
+
+.even{
+    width: 70vw;
+    height: 30vh;
+    border: 0.1rem;
+    border-style: solid;
+    border-color: #F0FE4B;
+    padding: 0.3rem;
+    margin: 1rem;
+}
+
+/* ---------------------------------------------------------------- */
+
+/*Footer*/
+
+#foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.3rem;
+    
+}
+
+#redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social{
+    width: 10vw;
+    height: 5vh;
+    margin: 0.3rem;
+}
+
+.line2{
+    background-color: #F0FE4B;
+    display: block;
+    width: 100vw;
+    height: 0.3vh;
+} 
+
+/* ---------------------------------------------------------------- */
+
+@media (min-width: 767px) and (max-width: 1023px) {
+
+    /*header*/
+
+        #head{
+            background-color: black;
+    
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        
+            width: 100vw;
+            height: 15vh; 
+        }
+
+        .nav-list{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            gap: 6rem;
+        }
+    
+        #logo{
+            width: 20vw;
+            height: 18vh;
+        }
+    /* ---------------------------------------------------------------- */
+
+    /*Main*/
+
+    #subtitle{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    #cuerpo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .even{
+        width: 35vw;
+        height: 27vh;
+        border: 0.1rem;
+        border-style: solid;
+        border-color: #F0FE4B;
+        padding: 0.3rem;
+        margin: 1rem;
+    }
+
+/* ---------------------------------------------------------------- */
+
+/*Footer*/
+
+    #foot{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0.3rem;
+        gap: 5rem;
+    
+    }
+
+    #redes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .social{
+        width: 7vw;
+        height: 5vh;
+        margin: 0.3rem;
+    }
+
+    .line2{
+        background-color: #F0FE4B;
+        display: block;
+        width: 100vw;
+        height: 0.3vh;
+    } 
+
+/* ---------------------------------------------------------------- */
+
+
+}
+
+@media (min-width: 1024px) {
+
+
+   /*header*/
+
+   #head{
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100vw;
+    height: 15vh; 
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+   #logo{
+    width: 20vw;
+    height: 18vh;
+}
+/* ---------------------------------------------------------------- */
+
+/*Main*/
+
+#subtitle{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.inputss{
+    width: 50vw;
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+}
+
+.inputss2{
+    width: 50vw;
+    height: 20vh;
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+}
+
+#boton{
+    background-color: white;
+    color: black;
+    width: 15vw;
+    height: 5vh;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.even{
+width: 18vw;
+height: 35vh;
+border: 0.1rem;
+border-style: solid;
+border-color: #F0FE4B;
+padding: 0.3rem;
+margin: 2rem;
+}
+
+/* ---------------------------------------------------------------- */
+
+/*Footer*/
+
+#foot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.3rem;
+    justify-content: space-between;
+}
+
+#redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social{
+    width: 5vw;
+    height: 5vh;
+    margin: 0.3rem;
+}
+
+.line2{
+    background-color: #F0FE4B;
+    display: block;
+    width: 100vw;
+    height: 0.3vh;
+} 
+
+/* ---------------------------------------------------------------- */
+
+
+}
+
+
+
+
+
+
+
+
+
+

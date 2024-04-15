@@ -14,17 +14,22 @@ server.get("/", function (req, res){
     res.sendFile(file);
 })
 
-server.get("/Info.html", function(req, res){
-    let file2 = path.join(__dirname,"views","Info.html");
+server.get("/Eventos.html", function(req, res){
+    let file2 = path.join(__dirname,"views","Eventos.html");
     res.sendFile(file2)
 });
 
-server.get("/Menu.html", function(req, res){
-    let file3 = path.join(__dirname,"views","Menu.html");
+server.get("/Noticias.html", function(req, res){
+    let file3 = path.join(__dirname,"views","Noticias.html");
     res.sendFile(file3)
 });
 
-server.get("/contac.html", function(req, res){
-    let file4 = path.join(__dirname,"views","contac.html");
+server.get("/Contacto.html", function(req, res){
+    let file4 = path.join(__dirname,"views","Contacto.html");
     res.sendFile(file4)
+});
+
+server.get("/Login.html", function(req, res){
+    let file5 = path.join(__dirname,"views","Login.html");
+    res.sendFile(file5)
 });
